@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author hygor
+ * @author Hygor Luciano 
  *
  */
 module bytebankEncapsulado {
