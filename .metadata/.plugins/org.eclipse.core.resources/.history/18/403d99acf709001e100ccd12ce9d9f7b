@@ -1,0 +1,16 @@
+package bytebankEncapsulado;
+
+public class TestaConta {
+
+	public static void main(String[] args) {
+		Conta conta = new Conta(1337, 233435);
+		
+		conta.deposita(200);
+		
+		System.out.println(conta.getSaldo());
+		
+		conta.setAgencia(1335);
+		
+		System.out.println(conta.getAgencia());
+	}
+}

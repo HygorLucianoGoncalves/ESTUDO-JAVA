@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author hygor
+ *
+ */
+module bytebankEncapsulado {
+}
