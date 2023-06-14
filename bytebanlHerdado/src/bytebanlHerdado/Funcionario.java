@@ -8,7 +8,6 @@ public class Funcionario {
 	
 	
 	public double getBonificacao() {
-		System.out.println("Chamando o metodo de bonificacao de funcionario");
 		return this.salario * 0.05; 
 	}
 	
