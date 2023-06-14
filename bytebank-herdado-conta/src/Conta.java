@@ -13,8 +13,9 @@ public class Conta {
 		System.out.println("Ja foram criadas o total de conta no banco de " + Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
-		//this.saldo = 100;
-		//System.out.println("O numero da conta e : " + this.numero + "\n" + "A agencia da conta é : " + this.agencia);
+		// this.saldo = 100;
+		// System.out.println("O numero da conta e : " + this.numero + "\n" + "A agencia
+		// da conta é : " + this.agencia);
 	}
 
 	// criando set e get pra ver e modificar atributos da class
@@ -33,8 +34,7 @@ public class Conta {
 	}
 
 	public boolean transfere(double valor, Conta destino) {
-		if (this.saldo >= valor) {
-			this.saldo -= valor;
+		if (this.saca(valor)) {
 			destino.deposita(valor);
 			return true;
 		} else {
