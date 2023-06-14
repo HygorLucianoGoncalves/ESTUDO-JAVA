@@ -4,4 +4,7 @@
     <fullyQualifiedTypeName name="java.time.OffsetTime"/>
     <fullyQualifiedTypeName name="bytebanlHerdado.FuncionarioTeste"/>
     <fullyQualifiedTypeName name="bytebanlHerdado.Funcionario"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="Gerente"/>
 </qualifiedTypeNameHistroy>

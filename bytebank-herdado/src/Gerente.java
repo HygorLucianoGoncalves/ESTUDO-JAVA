@@ -1,15 +1,12 @@
 
 public class Gerente extends Funcionario {
 
-	private String nome;
-	private String cpf;
-	private double salario;
 	private double senha;
 
 	// bonificação
-	public double getBonificacao() {
-		return this.salario * 0.1;
-	}
+//	public double getBonificacao() {
+//		return this.salario * 0.1;
+//	}
 
 	// setters
 	public void setSenha(double senha) {

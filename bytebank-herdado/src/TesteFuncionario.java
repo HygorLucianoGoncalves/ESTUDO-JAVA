@@ -11,5 +11,7 @@ public class TesteFuncionario {
 		System.out.println(funcionario1.getCpf());
 		System.out.println(funcionario1.getSalario());
 		System.out.println(funcionario1.getBonificacao());
+		
+		
 	}
 }

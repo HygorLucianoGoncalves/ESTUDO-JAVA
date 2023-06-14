@@ -4,12 +4,13 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	private double salario;
+	private
+	
+	double salario;
 	
 	
 	public double getBonificacao() {
-		double Boni = this.salario * 0.1;
-		return this.salario + this.salario * 0.1; 
+		return this.salario * 0.05; 
 	}
 	
 	
