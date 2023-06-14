@@ -4,6 +4,6 @@ public class EditorDeVideo extends Funcionario {// Gerente eh um Funcionario //G
 
 	public double getBonificacao() {
 		System.out.println("Chamando o método de bonidicacao de EdiditoDeVideo");
-		return super.getBonificacao() + 100; //super utilizar os metodo da class mãe 
+		return 150; // super utilizar os metodo da class mãe
 	}
 }
