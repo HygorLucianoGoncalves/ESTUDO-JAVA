@@ -12,10 +12,14 @@ public class TestaReferencias {
 		 f1.setNome("Bruno");
 		 f1.setSalario(2000.0);
 		 
+		 EditorDeVideo ev = new EditorDeVideo();
+		 ev.setNome("teste dp nome");
+		 ev.setSalario(2500.0);
 		 
 		 ControleBonificacao controle = new ControleBonificacao();
 		 controle.registra(g1);
 		 controle.registra(f1);
+		 controle.registra(ev);
 		 
 		 System.out.println(controle.getSoma());
 	}

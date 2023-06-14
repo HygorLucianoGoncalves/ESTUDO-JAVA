@@ -4,12 +4,11 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	private
-	
-	double salario;
+	private double salario;
 	
 	
 	public double getBonificacao() {
+		System.out.println("Chamando o metodo de bonificacao de funcionario");
 		return this.salario * 0.05; 
 	}
 	
