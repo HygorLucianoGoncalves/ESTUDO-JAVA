@@ -5,9 +5,9 @@ public abstract class Funcionario {
 	private String cpf;
 	private double salario;
 
-	//bonificação 
+	// bonificação
 	public abstract double getBonificacao();
-	
+
 	// setters
 	public void setNome(String nome) {
 		this.nome = nome;
