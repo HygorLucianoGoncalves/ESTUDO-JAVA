@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="java.lang.Deprecated"/>
     <fullyQualifiedTypeName name="javax.crypto.spec.DESedeKeySpec"/>
     <fullyQualifiedTypeName name="Conta"/>
-    <fullyQualifiedTypeName name="ContaCorrente"/>
     <fullyQualifiedTypeName name="ContaPoupanca"/>
     <fullyQualifiedTypeName name="java.security.KeyStore.PasswordProtection"/>
     <fullyQualifiedTypeName name="bytebanlHerdado.Admistrador"/>
@@ -31,4 +30,8 @@
     <fullyQualifiedTypeName name="Autenticavel"/>
     <fullyQualifiedTypeName name="Administrador"/>
     <fullyQualifiedTypeName name="AutenticacaoUtil"/>
+    <fullyQualifiedTypeName name="Tributavel"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="SeguroDeVida"/>
+    <fullyQualifiedTypeName name="CalculadorDeImposto"/>
 </qualifiedTypeNameHistroy>
