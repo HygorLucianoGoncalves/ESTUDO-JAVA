@@ -25,7 +25,10 @@
     <fullyQualifiedTypeName name="ControleBonificacao"/>
     <fullyQualifiedTypeName name="TestaSistema"/>
     <fullyQualifiedTypeName name="SistemeInterno"/>
-    <fullyQualifiedTypeName name="Administrador"/>
-    <fullyQualifiedTypeName name="Funcionario"/>
     <fullyQualifiedTypeName name="FuncionarioAutenticavel"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="Cliente"/>
+    <fullyQualifiedTypeName name="Autenticavel"/>
+    <fullyQualifiedTypeName name="Administrador"/>
+    <fullyQualifiedTypeName name="AutenticacaoUtil"/>
 </qualifiedTypeNameHistroy>
