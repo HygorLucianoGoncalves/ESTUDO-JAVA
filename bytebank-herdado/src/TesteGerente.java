@@ -3,6 +3,9 @@ public class TesteGerente {
 
 	public static void main(String[] args) {
 		
+		Autenticavel referencia = new Cliente();
+		referencia.setSenha(2222);
+		
 		Gerente g1 = new Gerente();
 		g1.setNome("nome do gerente: naab abdusbhds");
 		g1.setCpf("14115111");
@@ -18,6 +21,7 @@ public class TesteGerente {
 		System.out.println(autenticou);
 		
 		System.out.println(g1.getBonificacao());
+		
 	}
 }
 
