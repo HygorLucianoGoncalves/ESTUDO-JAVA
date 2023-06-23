@@ -1,10 +1,10 @@
-public class Fluxo {
+public class FluxoComTratamento {
 
 	public static void main(String[] args) {
 		System.out.println("Ini do main");
 		try {
 			metodo1();
-		} catch (ArithmeticException | NullPointerException ex) {
+		} catch (Exception ex) {
 			String msg = ex.getMessage();
 			System.out.println("Exception" + msg);
 			ex.printStackTrace();
@@ -18,15 +18,22 @@ public class Fluxo {
 		System.out.println("Fim do metodo1");
 	}
 
-	private static void metodo2() {
+	private static void metodo2()  {
 		System.out.println("Ini do metodo2");
-		for (int i = 1; i <= 5; i++) {
-			System.out.println(i);
-			int b = i / 0;
-			Conta c = null;
+		
+		throw new MinhaExcecao(" deu errado");
 
-		}
-		System.out.println("Fim do metodo2");
+		// pode fazer assim 
+		
+		/*ArithmeticException execption = new ArithmeticException("Deu Errado");
+		throw execption;
+		
+		// ou assim, assim e mais limpo o codigo
+		*/
+		//throw new ArithmeticException(" Deu errado");
+		
+		
+		//System.out.println("Fim do metodo2");
 	}
 
 }

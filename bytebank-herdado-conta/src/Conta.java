@@ -1,4 +1,6 @@
 
+
+
 public abstract class Conta {
 
 	protected double saldo;
@@ -26,7 +28,7 @@ public abstract class Conta {
 
 	
 	
-	public boolean saca(double valor) {
+	public void saca(double valor) {
 		if (this.saldo >= valor) {
 			this.saldo -= valor;
 			return true;
