@@ -2,11 +2,14 @@
 public class TestaContaComExcecaoChecked {
 
 	public static void main(String[] args) {
+
 		Conta c = new Conta();
 		try {
-			c.depositar();
+			c.deposita();
 		} catch(MinhaExcecao ex) {
-			System.out.println("tese");
+			System.out.println("tratamento ....");
 		}
+	
 	}
+
 }

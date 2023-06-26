@@ -1,27 +1,32 @@
 
-public class TesteConexao  {
+public class TesteConexao {
 
 	public static void main(String[] args) {
-	
-		try (Conexao conexao= new Conexao()){
+		
+		
+		try (Conexao conexao = new Conexao() ) {
 			conexao.leDados();
-		} catch (IllegalStateException ex) {
-			System.out.println("Deu erro na conexão");
-		} 
+		} catch(IllegalStateException ex) {
+			System.out.println("Deu erro na conexao");
+		}
 		
-		//--------------------------------
 		
-//		Conexao c = null;
+		//-----------------------------
+		
+//		Conexao con = null;
 //		try {
-//			c = new Conexao();
-//			c.leDados();
-//
-//		} catch (IllegalStateException ex) {
-//			System.out.println("Deu erro na conexão");
+//			con = new Conexao();
+//			con.leDados();
+//		} catch(IllegalStateException ex) {
+//			System.out.println("Deu erro na conexao");
 //		} finally {
-//			c.close();
+//			System.out.println("finally");
+//			if(con != null) {
+//				con.close();
+//			}
 //		}
+		
+
 	}
+
 }
-
-
